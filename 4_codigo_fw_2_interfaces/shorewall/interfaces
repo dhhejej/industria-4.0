@@ -1,0 +1,5 @@
+?FORMAT 2
+###############################################################################
+#ZONE   INTERFACE       OPTIONS
+net     wlp1s0          dhcp,tcpflags,nosmurfs,routefilter,logmartians,sourceroute=0,physical=wlp1s0
+loc     enp0s31f6       tcpflags,nosmurfs,routefilter,logmartians,physical=enp0s31f6
